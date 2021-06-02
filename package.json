@@ -10,7 +10,7 @@
   "author": "Jonathan Fleckenstein",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap.native": "^2.0.21",
+    "bootstrap.native": "^3.0.0",
     "memory-fs": "^0.4.1",
     "standard": "^10.0.3",
     "webpack": "^3.10.0"
