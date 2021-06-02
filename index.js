@@ -5,7 +5,7 @@ module.exports = function () {
   this.cacheable = true
   const callback = this.async()
   const options = getOptions(this) || {}
-  options.bs_version = options.bs_version || 4;
+  options.bs_version = options.bs_version || 5;
 
   bsn(options).then((source) => {
     callback(null, source)
